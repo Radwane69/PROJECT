@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  background: url(../img/Background6.jpg) no-repeat;
+  padding: 10px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header p {
+  text-align: center;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
