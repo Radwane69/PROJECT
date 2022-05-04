@@ -1,23 +1,55 @@
+html {
+  font-size: 62.5%;
+}
 header {
   width: 100%;
   background: url(../img/Background6.jpg) no-repeat;
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
 body {
   margin: 0 auto;
 }
 
-header p {
-  text-align: center;
-}
-
 h1 {
-    margin-left: 10px;
+  margin-left: 10px;
+  font-size: 3em;
 }
 
-nav {
-  margin-left: auto;
-  margin-right: auto;
-  width: 150px;
+ul {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  padding: 35px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+article {
+
+}
+
+div {
+  display: flex;
+
 }
